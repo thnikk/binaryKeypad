@@ -8,11 +8,13 @@ There are two ways to do this:
 
 ### PlatformIO
 
-The current file structure is made for use with Platformio. It can either be used directly from the terminal or within a text editor like Atom or Sublime. 
+The current file structure is made for use with Platformio. It can either be used directly from the terminal or within a text editor like Atom or Sublime.
 
-For the CLI, install this, cd into the binaryKeypad directory, and use platformio run --target upload (it will also compile the code.) http://docs.platformio.org/en/latest/installation.html
+For the CLI, install Platformio Core, cd into the binaryKeypad directory, and use platformio run --target upload (it will also compile the code.) http://docs.platformio.org/en/latest/installation.html
 
 For the IDE, install Deviot on Sublime or Platformio IDE on Atom through their respective package managers.
+
+<sub><sup>Make sure to install the udev rules on Linux or the drivers on Windows if you're not using Windows 10.</sup></sub>
 
 ### Arduino IDE
 
